@@ -9,7 +9,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const slider = () => (
     <AutoplaySlider
-        play={false}
+        play={true}
         cancelOnInteraction={false} // should stop playing on user interaction
         interval={3000}
         bullets={false}
