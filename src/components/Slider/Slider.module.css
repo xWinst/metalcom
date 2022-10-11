@@ -12,12 +12,15 @@
     --control-bullet-active-color: #26456f; */
     --loader-bar-color: transparent;
     --loader-bar-height: 0;
-    --timer-height: 0;
-    --timer-background-color: transparent;
 }
 
 .img {
     background-size: cover;
     background-position: center;
     min-height: 100%;
+}
+
+.slider .awssld__timer {
+    opacity: 0;
+    pointer-events: none;
 }

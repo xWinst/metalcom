@@ -77,6 +77,11 @@ ol {
     padding: 40px 20px;
 }
 
+.main .awssld__timer {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .sectionWidth {
     width: 1260px;
     margin: 0 auto;
