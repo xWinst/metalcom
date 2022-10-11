@@ -1,0 +1,39 @@
+.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.card {
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px gray;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px #515270;
+}
+
+.category {
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.cardName {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.img {
+    border-radius: 12px;
+}

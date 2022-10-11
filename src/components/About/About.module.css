@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about_title {
+    text-align: center;
+    color: var(--mainColor);
+    font-size: 26px;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+}
+
+.about_text {
+    text-align: center;
+    color: var(--mainColor);
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}

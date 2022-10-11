@@ -1,0 +1,41 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1200;
+}
+
+.modal {
+    max-width: calc(100vw - 40px);
+    max-height: calc(100vh - 40px);
+    overflow: auto;
+    animation: appear 0.5s linear forwards;
+    transform: scale(0.3);
+}
+
+/* .modal img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+} */
+
+@keyframes appear {
+    to {
+        transform: scale(1);
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    cursor: pointer;
+    stroke: gray;
+    z-index: 1300;
+}

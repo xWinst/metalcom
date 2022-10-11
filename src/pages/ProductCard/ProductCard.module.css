@@ -1,0 +1,133 @@
+.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.aside {
+    width: 196px;
+    max-height: 90vh;
+    padding: 6px;
+    overflow: auto;
+}
+
+.category {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--mainColor);
+    padding-bottom: 5px;
+    /* color: var(--mainColor); */
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardContainer {
+    width: 800px;
+}
+
+.card {
+    display: flex;
+    font-size: 20px;
+    height: 480px;
+    align-items: stretch;
+}
+
+.card img {
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 166px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    cursor: pointer;
+}
+
+.active {
+    composes: item;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+.img {
+    margin-top: 5px;
+}
+
+.item:hover {
+    box-shadow: 2px 2px 10px #515270;
+}
+
+.listImg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    overflow: auto;
+}
+
+.itemImg {
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+/* ------------------------------------ */
+
+.card_wrapper {
+    margin-right: 20px;
+}
+
+.features {
+    width: 450px;
+}
+
+.features_item {
+    color: var(--mainColor);
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+
+.features_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.card_title {
+    color: var(--mainColor);
+    font-size: 26px;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+}
+
+.card_size_item {
+    font-size: 16px;
+}
+
+.card_size_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.card_text_base {
+    display: flex;
+}
+
+.btn_connect {
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+    display: inline-block;
+}

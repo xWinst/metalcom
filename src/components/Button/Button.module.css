@@ -1,0 +1,26 @@
+.button {
+    width: 160px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--whiteColor);
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+
+    transition: background-color 300ms ease, color 300ms ease;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--mainColor);
+    background-color: var(--greyColor);
+}
