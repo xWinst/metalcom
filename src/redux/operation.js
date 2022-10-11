@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-axios.defaults.baseURL = 'https://metalkom.herokuapp.com/api';
+axios.defaults.baseURL = process.env.REACT_APP_DB_HOST;
 // axios.defaults.baseURL = 'http://localhost:4000/api';
 
 export const getCatalogs = createAsyncThunk('catalogs/all', async (_, { rejectWithValue }) => {
