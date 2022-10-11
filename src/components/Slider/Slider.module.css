@@ -12,6 +12,7 @@
     --control-bullet-active-color: #26456f; */
     --loader-bar-color: transparent;
     --loader-bar-height: 0;
+    --timer-height: 0;
 }
 
 .img {
