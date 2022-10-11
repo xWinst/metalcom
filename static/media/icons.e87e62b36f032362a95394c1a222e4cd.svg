@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="load" viewBox="0 0 36 36">
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0.4" cx="18" cy="4" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0.55" cx="27.9" cy="8.1" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0.7" cx="32" cy="18" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0.85" cx="27.9" cy="27.9" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0.95" cx="18" cy="32" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="1" cx="8.1" cy="27.9" r="3"/>
+        <circle fill="var(--mainColor, #dfac14)" fill-opacity="0" cx="4" cy="18" r="3"/>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 50 50">
+        <path fill="var(--logo-color, #000000)" d="M0 0 V50 H6 V9 L13 16 L17 12 L6 0z"/> 
+        <path fill="var(--logo-color, #000000)" d="M50 50 H44 V9 L25 28 L21 24 L44 0 H50z"/> 
+        <path fill="var(--logo-color, #000000)" d="M8 25 L33 0 H41 L16 25 L41 50 H33z"/> 
+    </symbol>
+    <symbol id="arrowLeft" viewBox="0 0 32 32">
+        <path fill="#ffffff" d="M1 16l15 15v-9h16v-12h-16v-9z"></path>
+    </symbol>
+    <symbol id="arrowUp" viewBox="0 0 18 19">
+        <path d="M2 10L9 4L16 10V12L9 6L2 12Z"></path>
+    </symbol>
+    <symbol id="close" fill="blue" viewBox="0 0 14 14">
+        <path d="M1 1 12 12M1 13 13 1" stroke-width="2"/>
+    </symbol>
+</svg>
